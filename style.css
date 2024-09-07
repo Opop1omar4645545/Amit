@@ -1,0 +1,57 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#game {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: url('Images/Space.jpg') no-repeat center center;
+    background-size: cover;
+    margin: auto;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#rocket {
+    position: absolute;
+    width: 50px;
+    height: 80px;
+    background: url('/Images/Rocket.png') no-repeat center center;
+    background-size: contain;
+    bottom: 20px;
+    left: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bullet {
+    position: absolute;
+    width: 10px;
+    height: 20px;
+    background: url('/Images/Bullet.png')no-repeat;
+    background-size: contain;
+}
+
+#chickens {
+    position: absolute;
+    top: 10px;
+    padding: 50px;
+}
+
+.chicken {
+    position: relative;
+    width: 75px;
+    height: 75px;
+    background: url('/Images/Chicken.png') no-repeat center center;
+    background-size: contain;
+    float: left;
+    gap: 10px;
+}
